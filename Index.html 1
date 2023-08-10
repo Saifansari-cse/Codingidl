@@ -46,6 +46,10 @@ Interest:<input type= "checkbox"name="nl"value="Web development"/>Web developmen
 <input type ="checkbox"name="nl"value="Ai/Ml Blockchain"/>Ai/Ml Blockchain
 <br><br>
 
+<div
+Class="Box"style="Color-blue;">Photo<Input type="File">
+</div><br>
+
 <div class="Comment-box">
 <h3>Comment </h3>
 <textarea name="comment"placeholder="Type Your Comment"></textarea>
