@@ -47,6 +47,15 @@ Interest:<input type= "checkbox"name="nl"value="Web development"/>Web developmen
 <br><br>
 
 <div
+class="box"style="color-powderblue;">Blood Group<Select name="Dropdown">
+<Option Value="A">A</option>
+<option value="A+">A+</option>
+<option value="B">B</option>
+<option value="B+">B+</option>
+<option value="C">C</option>
+</Select></div><br>
+
+<div
 Class="Box"style="Color-blue;">Photo<Input type="File">
 </div><br>
 
