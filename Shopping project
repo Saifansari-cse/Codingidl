@@ -1,0 +1,230 @@
+<html>
+<head>
+<tittle> Shopping Project  <tittle>
+<Style>
+
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar {display:flex;
+ flex-direction:row;
+ position:relative;
+ background:#00ded1;
+   padding:3px 3px; 
+   }
+   .navbar ul{
+       display:flex;
+       flex-direction:row;
+       list-style:8px;
+       margin:6px 10px;
+   }
+   .navbar ul li {
+       margin:2px 6px;
+   }
+    .navbar ul li a{
+   color:beige;
+   text-direction:none; 
+   border:2px solid #1e90ff; 
+   padding:3px 10px;
+   border-radius:6px;
+   background: black;
+   font-weight:1200;
+   font-align: centre;
+ } 
+ .navbar h1{display:flex;
+ flex-direction:row;
+ justify-content:center;
+ align-item:center;
+ }
+. container{
+    display:flex;
+    justify-content:center;
+    align-items:wrap;
+    border:2px solid#233439;
+    width: 20px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Box{
+    margin:100px;
+    width:200px;
+    height:200px;
+    box-shadow:1px 7px 7px 0px;
+    border: 2px solid#233439;
+    justify-content: center;
+    align-item: center;
+    text-align:center;
+    cursor: pointer;
+}
+.img{
+    width:200px;
+    height:100px;
+    display:flex;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    margin: 10px;
+    transform: 400ms;
+    justify-items: center;
+    align-items: center;
+    
+}
+.Main{
+    width:px:200px;
+    border:03px solid:red;
+    padding:08px;
+    border-radius:3px;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+    
+.input{
+    background:white;
+    border:0px;
+    outline:0px;
+    width:300px;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+    
+}
+body{
+    display:flex;
+    justify-content:Center;
+    margin-top:200px;
+    
+}
+.icon search{
+    color: yellow;
+    font-size:20px;
+}
+ 
+/*.main-scroll-div{
+    width:90px;
+    height:100px;
+    display:flex;
+    align-item:center;
+    justify-content:Space-between;
+    border:2px red;
+    
+}*/
+.cover{
+    position:relative;
+    width:90px;
+    height:50px;
+}
+.scroll-image{
+    width:100px;
+    height:auto;
+    display:flex;
+    justify-content:left;
+    align-item:center;
+    overflow:auto;
+    position:relative;
+    scroll-behavir: smooth;
+}
+.child{
+    min-width:200px;
+    height:250px;
+    margin:2px 8px;
+    cursor:pointer;
+    border:1px solid black;
+    overflow:hidden;
+    
+}
+.child-image{
+    width:100px;
+    height:100px;     
+
+</style>
+
+
+
+
+
+
+</head>
+<section>
+<nav class="navbar">
+<ul>
+<li><a href="/Html.3">HOME</a></li>
+<li><a href="www.manuu.edu.in">ABOUT</a></li>
+<li><a href="#">CONTACT</a></li>
+<li><a href="#">HELP</a></li>
+</ul>
+</nav>
+<br>
+
+<div class="main-scroll-div">
+<div></div>
+<div class="cover">
+<div class="scroll-image">
+<div class="child"><img class="child-image" src="https://play-lh.googleusercontent.com/G7jAks-PRl4d7IkL-s3Ir44nGyPq0Yh872N5UMwZYIJz4wG1Oj0DqoQjsAR5ddKZbQ" width="500" height="250" alt="image"></div>
+
+
+<div class="main">
+<input type="Search"placeholder="Search to se Product">
+<button>Search</button>
+<br><br>
+
+<body bgcolor="Yellow">
+<center>
+
+<Marquee><H1> Welcome To My Amazon Shopping</marquee></H1>
+</section>
+<br><br>
+
+<section>
+<div class ="container">
+<div class="Box">
+<img src="https://static.toiimg.com/thumb/msid-110013129,width-1280,height-720,imgsize-81668,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="MANGO" width="200" height="200"><h2> Sweet Mango </h2>
+<p>Price- Rs-120 1kg </p>
+</div>
+
+<div class ="Box">
+<img src="https://nativeindianorganics.com/wp-content/uploads/2023/04/papaya-seeds-online-india.jpg" alt="papaya" width="200" height="200"><h2> Sweet Papaya </h2>
+<p>Price- Rs-90 1kg </p>
+</div>
+
+<div class ="box">
+<img src="https://m.media-amazon.com/images/I/41Y2eoT3OTL.AC_UF1000,1000_QL80.jpg" width="200" height="200">
+<h2>Sweet Banana </h2>
+<p>Price- Rs-110 1kg </p>
+</div>
+
+<div class="box">
+<img src="https://cdn.britannica.com/45/126445-050-4C0FA9F6/Kiwi-fruit.jpg" width="200" height="200">
+<h2>Sweet kiwi </h2>
+<p>Price- Rs-190 1kg </p>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8UtrpPyYy_9wEWxUEybi3stLiEg3sSEfgiQ&s" width="200" height="200">
+<h2>Sweet Grapes </h2>
+<p>Price- Rs-150 1kg </p>
+</div>
+
+<div class="box">
+<img src="https://sapinsdairy.com/wp-content/uploads/2021/12/milk-bottle.png" width="200" height="200">
+<h2> Milk </h2>
+<p>Price- Rs-60 1kg </p>
+</div>
+
+<div class="box">
+<img src="https://fattaak.in/cdn/shop/files/1_0013c00a-148b-44a4-ab40-3e951fb16d65.jpg?v=1699522651" width="200" height="200">
+<h2> Dairy Milk </h2>
+<p>Price- Rs-50 1kg </p>
+</div>
+
+<div class="box">
+<img src="https://m.media-amazon.com/images/I/71p9lbMmS6L.jpg" width="200" height="200">
+<h2>Saffola gold oil </h2>
+<p>Price- Rs-150 1kg </p>
+</div>
+
+</section>
+</body>
+</html>
